@@ -30,7 +30,7 @@ The classifier (which will undergo further hyperparameter tuning before it is re
 The data used in analysis and modeling consists of the following:
 
 |**Feature**|**Type**|**Dataset**|**Description**|**Use**|
-|:---|:---|:---|:---|
+|:---|:---|:---|:---|:---|
 |title_selftext |string |aw_pos.csv |Content of submissions combining original columns `title` and `selftext` (after cleaning) |Primary variable in modeling |
 |created_utc |datetime |aw_pos.csv |Time of submission |Exploratory analysis |
 |distinguished |string |aw_pos.csv |Flag used to distinguish moderators from regular distributors |Data cleaning |
